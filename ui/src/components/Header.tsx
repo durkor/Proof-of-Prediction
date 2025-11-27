@@ -14,7 +14,7 @@ export function Header({ totalPredictions, activePredictions, totalStakeEth }: P
       <div className="header-inner">
         <div className="hero-copy">
           <p className="eyebrow">Proof of Prediction</p>
-          <h1>Encrypted prediction markets secured by Zama FHE</h1>
+          <h1>Proof of Prediction</h1>
           <p className="hero-subtitle">
             Publish outcomes, let anyone bet with ETH, and keep picks private until you authorize decryption.
           </p>
