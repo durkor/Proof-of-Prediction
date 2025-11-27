@@ -1,0 +1,144 @@
+.prediction-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 1.25rem;
+  padding: 1.5rem;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-pill {
+  background: #dbeafe;
+  color: #1d4ed8;
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.card-header h3 {
+  margin: 0.5rem 0 0.25rem;
+  color: #0f172a;
+}
+
+.creator {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.card-metrics {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.metric-label {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  margin: 0;
+}
+
+.metric-value {
+  margin: 0.2rem 0 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.option-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.85rem;
+  padding: 0.75rem 1rem;
+}
+
+.option-row.selected {
+  border-color: #a5b4fc;
+  box-shadow: 0 0 0 1px #c7d2fe;
+}
+
+.option-row.winner {
+  border-color: #34d399;
+}
+
+.option-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.winner-badge {
+  background: #dcfce7;
+  color: #15803d;
+  border-radius: 9999px;
+  padding: 0.25rem 0.65rem;
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+}
+
+.count-pill {
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+.bet-row {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.action-grid {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.success-banner {
+  background: #ecfccb;
+  color: #365314;
+  padding: 0.75rem 1rem;
+  border-radius: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.action-message {
+  margin: 0;
+  color: #475569;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 640px) {
+  .card-header {
+    flex-direction: column;
+  }
+
+  .card-metrics {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .bet-row,
+  .action-grid {
+    flex-direction: column;
+  }
+}
