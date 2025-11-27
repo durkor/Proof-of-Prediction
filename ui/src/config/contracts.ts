@@ -1,6 +1,6 @@
 // Auto-generated from deployments/sepolia/ProofOfPrediction.json
 
-export const CONTRACT_ADDRESS = '0x0000000000000000000000000000000000000000';
+export const CONTRACT_ADDRESS = '0xF7901FbeaeBA3841556A72724126183a4916c174';
 export const CONTRACT_ABI = [
   {
     "inputs": [],
